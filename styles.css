@@ -227,6 +227,7 @@ td {
 .page-6 pre {
   font-size: 14px;
   margin-left: -50px;
+  line-height: 1.5;
 }
 
 .page-7 {
@@ -240,4 +241,5 @@ td {
 .page-7 pre {
   font-size: 14px;
   margin-left: -50px;
+  line-height: 1.5;
 }
