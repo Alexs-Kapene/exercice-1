@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  background-color: #505157;
+  padding: 0px 10rem;
+  width: 100%;
+  height: auto;
+}
+
+.page-1 {
+  background-color: #fff;
+  padding: 7rem;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2.5rem;
+}
+
+.page-1 h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.page-1 h2 {
+  font-size: 1.7em;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.page-1 p span {
+  font-weight: bold;
+}
+
+/* -----------------------table page-1-------------------------- */
+
+.page-1 table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 3rem;
+}
+.page-1 table caption {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.page-1 table thead {
+  text-align: center;
+}
+
+.page-1 table th,
+td {
+  padding: 12px;
+  border: 1px solid #000;
+}
+
+.page-1 table td:nth-child(1) {
+  font-weight: bold;
+}
+
+/* ------------------------------------page 2-------------------------- */
+.page-2 {
+  background-color: #fff;
+  padding: 7rem;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2.5rem;
+}
+
+.page-2 table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+}
+
+.page-2 table th,
+td {
+  padding: 12px;
+  border: 1px solid #000;
+}
+
+.page-2 table td:nth-child(1) {
+  font-weight: bold;
+}
+
+.page-3 {
+  background-color: #fff;
+  padding: 7rem;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2.5rem;
+}
+
+.page-3 table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.page-3 table th,
+td {
+  padding: 12px;
+  border: 1px solid #000;
+}
+
+.page-3 table td:nth-child(1) {
+  font-weight: bold;
+}
+
+.page-3 img {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0px;
+}
+
+.page-3 p span {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.page-3 h2 {
+  margin: 1rem 0px;
+  font-weight: 500;
+}
+
+/* ---------------------------page 4 */
+
+.page-4 {
+  background-color: #fff;
+  padding: 7rem;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2.5rem;
+}
+
+.page-4 hr {
+  width: 100%;
+  margin: 3rem 0px;
+  background-color: #494747;
+}
+
+.page-4 h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+/* -----------------page 5 ----------------------*/
+
+.page-5 {
+  background-color: #fff;
+  padding: 7rem;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2.5rem;
+}
+
+.page-5 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.page-5 h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1.8rem 0px;
+}
+
+.page-5 h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #494747;
+}
+
+.page-5 ul {
+  margin-left: 2.5rem;
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* ------------------------------page 6---------------- */
+
+.page-6 {
+  background-color: #fff;
+  padding: 7rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.page-6 h3 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #505157;
+}
+
+.page-6 h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.page-6 pre {
+  font-size: 14px;
+  margin-left: -50px;
+}
+
+.page-7 {
+  background-color: #fff;
+  padding: 7rem;
+  width: 100%;
+  height: 900px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.page-7 pre {
+  font-size: 14px;
+  margin-left: -50px;
+}
